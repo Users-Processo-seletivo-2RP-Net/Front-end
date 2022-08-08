@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+:root {
+    --mainColor: #395B64;
+    --secondMain: #2C3333;
+    --secondaryColor: #A5C9CA;
+    --complementColor: #A43939;
+    --mainTypo: 'Poppins';
+    --secondaryTypo: 'Sen'
+}
+
+*{
+    padding:0;
+    margin:0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 85%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondMain);
+}
+
+footer p {
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}

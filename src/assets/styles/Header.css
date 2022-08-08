@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--secondMain);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  width: 170px;
+}
+
+header .container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header button{
+  width: 194px;
+  height: 43px;
+  border: 2px solid #FFFFFF;
+  text-transform: uppercase;
+  font-family: var(--secondaryTypo);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: transparent;
+  color: #FFFFFF;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+header button:hover{
+  transition: all 0.2s;
+  background-color: #FFFFFF;
+  color: var(--secondMain);
+}

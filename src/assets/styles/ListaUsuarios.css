@@ -1,0 +1,120 @@
+.mainListaUsuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainListaUsuarios h1 {
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--secondMain);
+    margin: 30px 0;
+}
+
+.usersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.user {
+    width: 252px;
+    height: 352px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform ease 300ms;
+    margin: 1em 0.5em 1em 0.5em;
+}
+
+.user:hover {
+    transform: translate(0, -10px);
+}
+
+.user p {
+    margin: 0;
+    font-family: var(--mainTypo);
+}
+
+.user div:nth-child(2) p:nth-child(1),
+.user div:nth-child(3) p:nth-child(1) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #919494;
+    text-transform: uppercase;
+}
+
+.user button {
+    width: 100%;
+    height: 42px;
+    background-color: var(--mainColor);
+    border: none;
+    font-family: var(--secondaryTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.user div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user img {
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.boxSearch {
+    margin: 30px 0;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxSearch input {
+    background: #E1E1E1;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 419px;
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.boxSearch button {
+    width: 252px;
+    background-color: var(--mainColor);
+    border: none;
+    font-family: var(--secondaryTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.boxSearch button:hover {
+    transition: all 0.2s;
+    background-color: #65868f;
+}

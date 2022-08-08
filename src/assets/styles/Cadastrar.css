@@ -1,0 +1,112 @@
+.sectionRegister {
+    height: 1200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxRegister {
+    max-width: 770px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 3%;
+    align-items: center;
+}
+
+.boxRegister h1 {
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--secondMain);
+}
+
+.boxRegister div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 240px;
+}
+
+.boxRegister div:nth-child(2) input {
+    display: none;
+}
+
+.boxRegister div:nth-child(2) label {
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+.boxRegister div:nth-child(2) img {
+    width: 193px;
+    height: 193px;
+    border-radius: 50%;
+}
+
+.boxRegister div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+
+.boxRegister div:nth-child(3) input,
+.boxRegister div:nth-child(3) select {
+    width: 100%;
+    height: 61px;
+    border: 1px solid #9E9E9E;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: var(--mainTypo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.boxRegister div:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.boxRegister div:nth-child(4) button {
+    height: 61px;
+    width: 48%;
+    font-family: var(--secondMain);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.boxRegister div:nth-child(4) button:nth-child(1){
+    background-color: transparent;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+}
+
+.boxRegister div:nth-child(4) button:nth-child(2){
+    background-color: var(--mainColor);
+    color: #FFF;
+}
