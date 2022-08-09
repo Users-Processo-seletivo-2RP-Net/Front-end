@@ -78,6 +78,7 @@
     font-weight: 400;
     font-size: 15px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .boxImage div button:nth-child(1) {

@@ -6,8 +6,12 @@ import imgService3 from '../assets/img/services3.jpg'
 import imgService4 from '../assets/img/services4.jpg'
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+
+  const navigate = useNavigate();
+
   return (
     <div>
       <Header />
@@ -16,7 +20,7 @@ export default function Home() {
           <div className='container'>
             <h1>Gerencie seu time!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere diam quis cursus mollis.</p>
-            <button>entrar</button>
+            <button onClick={() => navigate('/login')}>entrar</button>
           </div>
         </section>
         <section className='services'>

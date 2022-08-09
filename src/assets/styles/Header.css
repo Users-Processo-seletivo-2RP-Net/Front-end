@@ -11,14 +11,14 @@ header img {
   width: 170px;
 }
 
-header .container{
+header .container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header button{
+header button {
   width: 194px;
   height: 43px;
   border: 2px solid #FFFFFF;
@@ -33,8 +33,15 @@ header button{
   cursor: pointer;
 }
 
-header button:hover{
+header button:hover {
   transition: all 0.2s;
   background-color: #FFFFFF;
   color: var(--secondMain);
+}
+
+.imgPerfil {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  cursor: pointer;
 }
